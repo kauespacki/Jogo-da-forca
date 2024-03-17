@@ -8,7 +8,8 @@ public static class JogoDaForca
     public static void Iniciar(int quantidadePalavras, Dificuldade dificuldade)
     {
         var menu = new Menu(quantidadePalavras, dificuldade);
+        var jogo = new Jogo(menu);
         menu.Iniciar();
-        Jogo.Iniciar(menu);
+        jogo.Jogar(menu);
     }
 }

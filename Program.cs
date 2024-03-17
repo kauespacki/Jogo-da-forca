@@ -4,6 +4,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        JogoDaForca.Iniciar(4, Dificuldade.Dificil);
+        JogoDaForca.Iniciar(3, Dificuldade.Dificil);
     }
 }
